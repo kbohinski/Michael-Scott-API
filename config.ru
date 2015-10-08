@@ -3,5 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require './Driver.rb'
-run Driver
+require './Driver'
+run Driver.new

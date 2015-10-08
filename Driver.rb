@@ -17,8 +17,11 @@
 
 # Importing Sinatra #
 require 'sinatra'
+class Driver < Sinatra::Base
 
-# If a user get requests path /quote , return a quote. #
-get '/quote' do
-  "{ \"quote\": \"\"" + File.readlines("QuoteData.txt").sample + "\" - Michael Scott\" }"
+  # If a user get requests path /quote , return a quote. #
+  get '/quote' do
+    "{ \"quote\": \"\"" + File.readlines("QuoteData.txt").sample + "\" - Michael Scott\" }"
+  end
+
 end

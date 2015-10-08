@@ -11,6 +11,6 @@ Returns a random quote in this format:
 ```
 
 ## How to run it
-'''gem install sinatra'''
-'''ruby Driver.rb'''
+```gem install sinatra```
+```ruby Driver.rb```
 Go to: [http://localhost:4567/quote](http://localhost:4567/quote)

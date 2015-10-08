@@ -4,7 +4,7 @@
 # @since 2015-10-7
 #
 # Project Name:  Michael-Scott-API
-# Description:   Michael Scott Quote REST API to learn Sinatra.
+# Description:   Just a simple Sinatra REST API server to learn more about Sinatra/Ruby.
 #
 # Filename:      Driver.rb
 # Description:   Simple Sinatra app to serve Michael Scott quotes.
@@ -18,7 +18,7 @@
 # Importing Sinatra #
 require 'sinatra'
 
-# If a user get requests path / , return a quote. #
+# If a user get requests path /quote , return a quote. #
 get '/quote' do
-  "{ \"quote\": \"" + File.readlines("QuoteData.txt").sample + "\" - Michael Scott }"
+  "{ \"quote\": \"\"" + File.readlines("QuoteData.txt").sample + "\" - Michael Scott\" }"
 end

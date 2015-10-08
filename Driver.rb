@@ -13,7 +13,7 @@
 # Copyright (c) 2015 Kevin Bohinski. All rights reserved.
 ##
 
-# Inspired by: https://github.com/jamesseanwright/ron-swanson-quotes
+# Inspired by: https://github.com/jamesseanwright/ron-swanson-quotes #
 
 # Importing Sinatra #
 require 'sinatra'

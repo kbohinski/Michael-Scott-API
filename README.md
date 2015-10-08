@@ -1,5 +1,9 @@
 # Michael-Scott-API
+![Prison Mike](prisonMike.png)
 Just a simple Sinatra REST API server to learn more about Sinatra/Ruby.
+
+![Demo](demo.gif)
+
 Inspired by: https://github.com/jamesseanwright/ron-swanson-quotes
 
 ## API
@@ -12,5 +16,7 @@ Returns a random quote in this format:
 
 ## How to run it
 ```gem install sinatra```
+
 ```ruby Driver.rb```
+
 Go to: [http://localhost:4567/quote](http://localhost:4567/quote)

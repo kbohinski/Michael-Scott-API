@@ -1,4 +1,6 @@
 # Michael-Scott-API
+[Try it out! https://michael-scott-quotes.herokuapp.com/quote](https://michael-scott-quotes.herokuapp.com/quote)
+
 ![Prison Mike](prisonMike.png)
 
 Just a simple Sinatra REST API server to learn more about Sinatra/Ruby.

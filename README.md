@@ -1,5 +1,6 @@
 # Michael-Scott-API
 ![Prison Mike](prisonMike.png)
+
 Just a simple Sinatra REST API server to learn more about Sinatra/Ruby.
 
 ![Demo](demo.gif)

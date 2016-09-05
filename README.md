@@ -1,5 +1,5 @@
 # Michael-Scott-API
-~~[Try it out! https://michael-scott-quotes.herokuapp.com/quote](https://michael-scott-quotes.herokuapp.com/quote)~~
+[Try it out! https://michael-scott-quotes.herokuapp.com/quote](https://michael-scott-quotes.herokuapp.com/quote)
 
 ![Prison Mike](prisonMike.png)
 

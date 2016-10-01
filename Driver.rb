@@ -15,13 +15,15 @@
 
 # Inspired by: https://github.com/jamesseanwright/ron-swanson-quotes #
 
-# Importing Sinatra #
+# Importing Sinatra, JSON #
 require 'sinatra'
+require 'json'
 class Driver < Sinatra::Base
 
   # If a user get requests path /quote , return a quote. #
   get '/quote' do
-    "{ \"quote\": \"\"" + File.readlines("QuoteData.txt").sample + "\" - Michael Scott\" }"
+    content_type :json
+	  { :quote => File.readlines("QuoteData.txt").sample, :author => 'Michael Scott' }.to_json
   end
 
 end

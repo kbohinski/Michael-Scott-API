@@ -13,9 +13,11 @@ Inspired by: https://github.com/jamesseanwright/ron-swanson-quotes
 
 ### `GET /quote`
 Returns a random quote in this format:
-```
-{ "quote": ""That's what she said. " - Michael Scott" }
-```
+```javascript
+{
+  "quote": "NO! GOD! NO GOD PLEASE NO! NO! NOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+  "author": "Michael Scott"
+}```
 
 ## How to run it
 ```gem install sinatra```

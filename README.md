@@ -17,7 +17,8 @@ Returns a random quote in this format:
 {
   "quote": "NO! GOD! NO GOD PLEASE NO! NO! NOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
   "author": "Michael Scott"
-}```
+}
+```
 
 ## How to run it
 ```gem install sinatra```

@@ -8,7 +8,7 @@
 #
 # Filename:      Driver.rb
 # Description:   Simple Sinatra app to serve Michael Scott quotes.
-# Last Modified: 2015-10-7
+# Last Modified: 2016-10-1
 #
 # Copyright (c) 2015 Kevin Bohinski. All rights reserved.
 ##
@@ -19,6 +19,8 @@
 require 'sinatra'
 require 'json'
 class Driver < Sinatra::Base
+
+set :protection, :except => [:json_csrf]
 
   # If a user get requests path /quote , return a quote. #
   get '/quote' do

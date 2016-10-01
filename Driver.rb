@@ -23,7 +23,7 @@ class Driver < Sinatra::Base
   # If a user get requests path /quote , return a quote. #
   get '/quote' do
     content_type :json
-    { :quote => File.readlines("QuoteData.txt").sample, :author => 'Michael Scott' }.to_json
+    { :quote => File.readlines("QuoteData.txt").sample[0..-2], :author => 'Michael Scott' }.to_json
   end
 
 end
